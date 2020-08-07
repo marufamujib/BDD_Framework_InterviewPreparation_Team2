@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-06T18:59:03.657Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14802905000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search Insurance available in Cigna",
+        "description": "",
+        "id": "explore-cigna-home-page;search-insurance-available-in-cigna",
+        "after": [
+          {
+            "result": {
+              "duration": 1323458100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61834700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Cigna Home Page",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.i_am_at_Cigna_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2818459200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Individual and Family Plans",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.i_click_on_Individual_and_Family_Plans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78789900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see All Health Insurance for Individuals and Family",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.i_should_see_All_Health_Insurance_for_Individuals_and_Family()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore Cigna Home Page",
+    "description": "  As a customer I want to explore Cigna.com to search different services",
+    "id": "explore-cigna-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
